@@ -4,7 +4,7 @@ import json
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_dir", type=str, default="./OUTPUT_MODEL/G_latest.pth")
+    parser.add_argument("--model_dir", type=str, default="/content/drive/MyDrive/Nahida-Output/G_latest.pth")
     parser.add_argument("--config_dir", type=str, default="./configs/modified_finetune_speaker.json")
     args = parser.parse_args()
 
